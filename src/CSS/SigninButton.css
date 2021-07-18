@@ -1,0 +1,17 @@
+.signinbutton {
+	height: 11vh;
+	width: 60vw;
+	margin-bottom: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 3vw;
+	background-color: #056cfb;
+	color: white;
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #6c7081;
+}
+@media (max-width: 800px) {
+	.signinbutton {
+		font-size: 4vw;
+	}
+}

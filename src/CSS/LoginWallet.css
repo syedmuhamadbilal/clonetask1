@@ -1,0 +1,31 @@
+.mysection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #252736;
+	height: 100vh;
+}
+.inputsection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 70vw;
+	height: 50vh;
+	padding: 20px 30px 20px 30px;
+	background-color: #292b3a;
+}
+.inputarea {
+	width: 10vh;
+	height: 20vh;
+	margin-bottom: 20px;
+	background-color: #11121b !important;
+	color: #6b6d7e !important;
+	box-shadow: none !important;
+	border-color: #6b6d7e !important;
+}
+.textareadescription {
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+}

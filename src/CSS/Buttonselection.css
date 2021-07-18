@@ -1,0 +1,8 @@
+.mysection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #252736;
+	height: 100vh;
+}
