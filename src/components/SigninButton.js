@@ -1,6 +1,5 @@
 import React from 'react'
 import "../CSS/SigninButton.css"
-import { Link } from 'react-router-dom'
 
 const Signinbutton = ({ children, sendmail }) => {
     return (

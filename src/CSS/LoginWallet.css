@@ -6,7 +6,7 @@
 	background-color: #252736;
 	height: 100vh;
 }
-.inputsection {
+/* .inputsection {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -24,7 +24,7 @@
 	color: #6b6d7e !important;
 	box-shadow: none !important;
 	border-color: #6b6d7e !important;
-}
+} */
 .textareadescription {
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
